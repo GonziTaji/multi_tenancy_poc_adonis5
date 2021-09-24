@@ -20,7 +20,7 @@
 
 import Route from '@ioc:Adonis/Core/Route';
 import Database, { PostgreConfig } from '@ioc:Adonis/Lucid/Database';
-import { Person } from 'App/modules/multi_tenancy/database/Person';
+import { Person } from 'App/Models/Person';
 
 Route.get('/', async () => {
     return { hello: 'world' };
